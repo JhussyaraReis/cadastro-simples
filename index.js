@@ -14,8 +14,13 @@ const sequelize = new Sequelize("pessoas", "root", "cri2[9/LilloutBiz", {
   dialect: "mysql",
 });
 
-app.get("/card", function (req, res) {
-  res.send("Rota de cadastro");
+//Rotas
+app.get("/cad", function (req, res) {
+  res.render("formulario");
+});
+
+app.post("/add", function (req, res) {
+  res.send("formulario enviado");
 });
 
 app.listen(8081, function () {
