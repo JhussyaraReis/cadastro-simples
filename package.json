@@ -6,7 +6,7 @@
     "mysql2": "^3.6.2",
     "sequelize": "^6.33.0"
   },
-  "name": "curso02",
+  "name": "projetocadastro",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
