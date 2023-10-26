@@ -1,9 +1,10 @@
 # Cadastro Simples 
 
-Esse é um projeto de um cadastro criado com node.js e mysql
+Esse é um projeto de um cadastro criado com node.js, mysql. 
 
 Para iniciar o projeto é preciso criar o arquivo db.js dentro da pasta models com as configurações do seu banco de dados:
 
+```javascript
 const Sequelize = require("sequelize");
 
 //conexão com o banco de dados mysql
@@ -16,3 +17,6 @@ module.exports = {
 Sequelize: Sequelize,
 sequelize: sequelize,
 };
+```
+
+
