@@ -2,7 +2,11 @@
 
 Esse é um projeto de um cadastro criado com node.js, mysql. 
 
-Para iniciar o projeto é preciso criar o arquivo db.js dentro da pasta models com as configurações do seu banco de dados:
+Para iniciar o projeto é preciso :
+
+- [ ] criar o seu banco de dados;
+- [ ] rodar o comando npm install na pasta do projeto;
+- [ ] criar o arquivo db.js dentro da pasta models com as configurações abaixo:
 
 ```javascript
 const Sequelize = require("sequelize");
@@ -18,5 +22,4 @@ Sequelize: Sequelize,
 sequelize: sequelize,
 };
 ```
-
-
+- [ ] rodar o arquivo Post.js para criar as tabelas do banco;
