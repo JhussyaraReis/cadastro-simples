@@ -58,5 +58,5 @@ app.get("/deletar/:id", function (req, res) {
 });
 
 app.listen(8081, function () {
-  console.log("Servidor Rodando");
+  console.log("Servidor Rodando em http://127.0.0.1:8081/cad");
 });
